@@ -4,7 +4,7 @@ using namespace std;
 int main(){
   string content;
   getline(cin,content);
- // cin>>content; //dekha yeh sirf pehla word read karega tum space to do yeh kaam nhi aayega
+ // cin>>content; //this will only read upto first word or will not work if the sentence has spaces in it
   cout<<content<<endl;
   return 0;
 
